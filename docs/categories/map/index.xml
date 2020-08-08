@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>map on Persian</title>
+    <link>/categories/map/</link>
+    <description>Recent content in map on Persian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="/categories/map/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive Map</title>
+      <link>/post/post-2/</link>
+      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/post/post-2/</guid>
+      <description>{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;calls&#34;:[{&#34;method&#34;:&#34;addProviderTiles&#34;,&#34;args&#34;:[&#34;Stamen.Toner&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:false,&#34;detectRetina&#34;:false}]},{&#34;method&#34;:&#34;addMarkers&#34;,&#34;args&#34;:[[37.5641134,-16.8006309,51.5611976,1.3167354,63.1757722,39.9386949,14.602861,27.9110176,-1.4918885,22.3193039,28.495075,53.3924013],[140.1078445,179.3618146,-0.0928437,103.8388212,14.639316,116.417661,121.045855,84.8919664,29.5571677,114.1693611,119.401878,-2.9558926],null,null,null,{&#34;interactive&#34;:true,&#34;draggable&#34;:false,&#34;keyboard&#34;:true,&#34;title&#34;:&#34;&#34;,&#34;alt&#34;:&#34;&#34;,&#34;zIndexOffset&#34;:0,&#34;opacity&#34;:1,&#34;riseOnHover&#34;:false,&#34;riseOffset&#34;:250},[&#34;Feature ID1&amp;emsp;1Project Name&amp;emsp;Hajimari Art Center&amp;emsp;2Firm&amp;emsp;studio-L&amp;emsp;3Keywords&amp;emsp;Citizen Participation, Empowerment, Art Brut, Social Welfare&amp;emsp;4Country&amp;emsp;Japan&amp;emsp;5address&amp;emsp;4873 Aramachi, Inawashiro, Yama District, Fukushima 969-3122, Japan&amp;emsp;6Details&amp;emsp;Click Here&amp;emsp;7geometry&amp;emsp;sfc_POINT&amp;emsp;&#34;,&#34;Feature ID2&amp;emsp;1Project Name&amp;emsp;Naidi Community Hall&amp;emsp;2Firm&amp;emsp;CAUKIN Studio&amp;emsp;3Keywords&amp;emsp;Democratic education, Quality Design, Accessibility for All, Community Focused, Sustainable Innovation&amp;emsp;4Country&amp;emsp;Fiji&amp;emsp;5address&amp;emsp;Vanua Levu, Naidi, Fiji&amp;emsp;6Details&amp;emsp;Click Here&amp;emsp;7geometry&amp;emsp;sfc_POINT&amp;emsp;&#34;,&#34;Feature ID3&amp;emsp;1Project Name&amp;emsp;Kings Crescent Estate&amp;emsp;2Firm&amp;emsp;Muf Architecture + Art&amp;emsp;3Keywords&amp;emsp;Citizen Participation, Empowerment&amp;emsp;4Country&amp;emsp;United Kingdom&amp;emsp;5address&amp;emsp;Queens Drive, London, N4 2XD&amp;emsp;6Details&amp;emsp;Click Here&amp;emsp;7geometry&amp;emsp;sfc_POINT&amp;emsp;&#34;,&#34;Feature ID4&amp;emsp;1Project Name&amp;emsp;Hack Our Play - St. James Church Kindergarten&amp;emsp;2Firm&amp;emsp;Participate in Design (P!</description>
+    </item>
+    
+  </channel>
+</rss>

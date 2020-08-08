@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Persian</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Persian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2020 12:14:34 +0600</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>thumb</title>
+      <link>/tags/thumb/</link>
+      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/thumb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>top</title>
+      <link>/tags/top/</link>
+      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/top/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>/tags/video/</link>
+      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>/tags/book/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>green</title>
+      <link>/tags/green/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/green/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inspire</title>
+      <link>/tags/inspire/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/inspire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memo</title>
+      <link>/tags/memo/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/memo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nature</title>
+      <link>/tags/nature/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/nature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new</title>
+      <link>/tags/new/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nice</title>
+      <link>/tags/nice/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/nice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>/tags/tree/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
