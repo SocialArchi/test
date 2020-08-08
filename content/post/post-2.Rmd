@@ -1,0 +1,66 @@
+---
+author: 
+categories:
+- map
+date: "2020-01-12T12:14:34+06:00"
+description: This is meta description.
+draft: false
+image: images/post/post1_2.jpg
+title: Interactive Map
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(rvest)
+library(xml2)
+library(stringr)
+library(ggmap)
+library(mapview)
+library(sf)
+```
+
+```{r include=FALSE}
+#vwo_list_sf <- read_sf("Data/VWOs_list_location_8Apr2020.shp")
+case_geo <- read_csv(("Data/case_studies_sf_5Aug2020.csv")) %>% select(-ID, -Link)
+case_geo <- case_geo %>% st_as_sf(coords = c("lon", "lat"), crs = 4326)
+```
+
+```{r include=FALSE}
+label <- case_geo %>%  
+  mutate(Details = paste0(
+    "<a href='"
+                 , Details
+                 , "' target='_blank'>"
+                 , "Click Here</a>"))
+```
+
+```{r echo=FALSE, fig.height=5, fig.width=10}
+library(leaflet)
+leaflet() %>%
+  addProviderTiles(providers$Stamen.Toner) %>% 
+  addMarkers(data = case_geo,
+                   popup = leafpop::popupTable(label)) %>% 
+  setView(lng = 105, lat = 20, zoom = 1.5)
+```
+
+## List of Case Studies
+- [Anna Heringer Architecture](https://socialarchi.github.io/2020/anna-heringer-architecture.html)
+- [billionBricks](https://socialarchi.github.io/2020/billionbricks.html)
+- [CAUKIN Studio](https://socialarchi.github.io/2020/caukin-studio.html)
+- [IX Architects](https://socialarchi.github.io/2020/ix-architects.html)
+- [Ground Up Initiative](https://socialarchi.github.io/2020/ground-up-initiative.html)
+- [Atelier-3](https://socialarchi.github.io/2020/atelier-3.html)
+- [Participate in Design (P!D)](https://socialarchi.github.io/2020/participate-in-design-pd.html)
+- [SAA Architects](https://socialarchi.github.io/2020/saa-architects.html)
+- [One Bite Studio](https://socialarchi.github.io/2020/one-bite-studio.html)
+- [People's Architecture Office](https://socialarchi.github.io/2020/peoples-architecture-office.html)
+- [studio-L](https://socialarchi.github.io/2020/studio-l.html)
+- [SHAU](https://socialarchi.github.io/2020/shau.html)
+- [Kjellandar Sjoberg](https://socialarchi.github.io/2020/kjellandar-sjoberg.html)
+- [VTN Architects](https://socialarchi.github.io/2020/vtn-architects.html)
+- [WTA Architecture and Design Studio](https://socialarchi.github.io/2020/wta-architecture-and-design-studio.html)
+- [DnA Design and Architecture](https://socialarchi.github.io/2020/dna-design-and-architecture.html)
